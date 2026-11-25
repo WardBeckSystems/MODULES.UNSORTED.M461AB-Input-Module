@@ -1,0 +1,238 @@
+{
+ "code": "M461AB",
+ "connector": "RTO-144",
+ "type": "Microphone Preamp",
+ "series": null,
+ "contacts": "",
+ "verified": null,
+ "derived": false,
+ "variant_of": null,
+ "pins": [
+  {
+   "pin": "1",
+   "signal": "Mic In",
+   "kind": "in",
+   "pair": "A1",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "9",
+   "signal": "Direct OUT",
+   "kind": "out",
+   "pair": "A4",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "10",
+   "signal": "Line",
+   "kind": "io",
+   "pair": "A2",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "11",
+   "signal": "Fader Return",
+   "kind": "in",
+   "pair": "B4",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "12",
+   "signal": "CHON OUT - OUT",
+   "kind": "out",
+   "pair": "B3",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "13",
+   "signal": "Insert Return",
+   "kind": "in",
+   "pair": "B2",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "14",
+   "signal": "Insert Send",
+   "kind": "out",
+   "pair": "B1",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "16",
+   "signal": "Right OUT",
+   "kind": "out",
+   "pair": "A3",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "A",
+   "signal": "Mic In",
+   "kind": "in",
+   "pair": "A1",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "K",
+   "signal": "Direct OUT",
+   "kind": "out",
+   "pair": "A4",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "L",
+   "signal": "Line",
+   "kind": "io",
+   "pair": "A2",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "M",
+   "signal": "Fader Return",
+   "kind": "in",
+   "pair": "B4",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "N",
+   "signal": "CHON OUT - OUT",
+   "kind": "out",
+   "pair": "B3",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "P",
+   "signal": "Insert Return",
+   "kind": "in",
+   "pair": "B2",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "R",
+   "signal": "Insert Send",
+   "kind": "out",
+   "pair": "B1",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": "rto-144"
+  },
+  {
+   "pin": "T",
+   "signal": "Right OUT",
+   "kind": "out",
+   "pair": "A3",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": "rto-144"
+  }
+ ],
+ "straps": [
+  {
+   "function": "CH ON LAMP",
+   "designation": "JMP.Z.W",
+   "from": "Z",
+   "to": "W"
+  },
+  {
+   "function": "24V Ground",
+   "designation": "JMP.X.18",
+   "from": "X",
+   "to": "18"
+  },
+  {
+   "function": "24V to 25V",
+   "designation": "JMP.Y.21",
+   "from": "Y",
+   "to": "21"
+  },
+  {
+   "function": "CH ON GND ",
+   "designation": "JMP.3",
+   "from": "20",
+   "to": "18"
+  },
+  {
+   "function": "Insert  SEND",
+   "designation": "JMP.14.13",
+   "from": "14",
+   "to": "13"
+  },
+  {
+   "function": "Insert  Return",
+   "designation": "JMP.R.P",
+   "from": "R",
+   "to": "P"
+  },
+  {
+   "function": "Fader Send",
+   "designation": "JMP.12.11",
+   "from": "12",
+   "to": "11"
+  },
+  {
+   "function": "Fader Return",
+   "designation": "JMP.N.M",
+   "from": "N",
+   "to": "M"
+  }
+ ],
+ "power": [
+  {
+   "rail": "VEE-AUDIO",
+   "style": "NEW",
+   "volts": -25,
+   "max_a": 0.1,
+   "supply": "19",
+   "ground": "20",
+   "link": 2
+  },
+  {
+   "rail": "VCC-AUDIO",
+   "style": "NEW",
+   "volts": 25,
+   "max_a": 0.2,
+   "supply": "21",
+   "ground": "20",
+   "link": 1
+  },
+  {
+   "rail": "VCC-LAMP",
+   "style": "NEW",
+   "volts": 24,
+   "max_a": 0.1,
+   "supply": "Y",
+   "ground": "18",
+   "link": null
+  }
+ ],
+ "sources": [
+  "Engineering/RTO-144/M461AB/M461AB.rto144.json"
+ ]
+}
